@@ -1,3 +1,13 @@
 print(f'string{var}') print a string
+
 i can do this (xenc @ W)[3,13] and treat those inside () as one variable without a name
-logits = log count. 
+
+logits = log count.
+
+.append() always adds the whole thing as one element.
+
+# self Q&A
+
+Q1. the paper embed words. in this project we still use character level. do we embed or still use a-z to 1-26?
+
+A1. we use embedding. instead of using 30-length vector to represent 17000 words, we use 2-length vector to represent 27 characters.  so C is 27
