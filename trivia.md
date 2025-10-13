@@ -1,4 +1,5 @@
 print(f'string{var}') print a string
+print(f"{varname=}") is a shortcut to print varname=value
 
 i can do this (xenc @ W)[3,13] and treat those inside () as one variable without a name
 
