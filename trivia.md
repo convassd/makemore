@@ -11,6 +11,13 @@ if a is a tensor, a.storage() shows how a is stored in memory. a.view(2,3) does 
 
 after logits add/subtract a constant the prob remains the same.
 
+the formula of cross-entropy in one-hot case is
+
+$$CE=-\log \hat y_k$$
+for batch of N
+$$CE=-mean(\log \hat y_k)$$
+
+
 # self Q&A
 
 Q1. the paper embed words. in this project we still use character level. do we embed or still use a-z to 1-26?
